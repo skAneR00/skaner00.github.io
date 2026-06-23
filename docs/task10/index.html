@@ -9,16 +9,21 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body class="d-flex justify-content-center align-items-center vh-100 bg-light">
+<body class="d-flex flex-column justify-content-center align-items-center min-vh-100 bg-light py-5 gap-4">
 
-    <h1 id="hh" class="display-1 fw-bold text-primary text-center"></h1>
+    <h1 id="hh" class="display-1 fw-bold text-primary text-center m-0"></h1>
 
-    <h2>Пример работы с Docker: </h2>
-    <img src="./docker.png" alt="docker">
-    <h2>Пример npx webpack:</h2>
-    <img src="./webpack.png" alt="webpack">
+    <div class="text-center">
+        <h2 class="h4 text-secondary">Пример работы с Docker:</h2>
+        <img src="./docker.png" alt="docker" class="img-fluid rounded shadow-sm" style="max-width: 800px;">
+    </div>
 
-    <h1>ОБА РЕЗУЛЬТАТА ВЫДАЮТ ЭТУ СТРАНИЦУ</h1>
+    <div class="text-center">
+        <h2 class="h4 text-secondary">Пример npx webpack:</h2>
+        <img src="./webpack.png" alt="webpack" class="img-fluid rounded shadow-sm" style="max-width: 800px;">
+    </div>
+
+    <h1 class="h3 fw-bold text-uppercase text-danger text-center mt-3">ОБА РЕЗУЛЬТАТА ВЫДАЮТ ЭТУ СТРАНИЦУ</h1>
 
     <script src="https://jsdelivr.net"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
